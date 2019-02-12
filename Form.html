@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Form</title>
+</head>
+
+<body>
+    <div>
+        <img src="kellton.png" alt="Kellton Tech" style="width:10%"></img>
+        <a href="www.google.com">Home </a>|
+        <a href="www.youtube.com"> Product</a>|
+        <a href="www.google.com">Company</a>|
+        <a href="www.google.com">Blog</a>
+        <input type="text" class="search" placeholder="Search.." name="search" align="right">
+    </div>
+    <h1 align="center">Online Registration</h1>
+
+    <p>Fill in your Authentication Code if you already have one. Your Authentication Code is valid for one calendar day.
+        If you do not have an Authentication Code, you will be required to verify your eTDS return details to generate
+        one.
+
+        If you had created the original return using ClearTDS, you can easily copy-paste these details. Login to
+        ClearTDS and select the Deductor you wish to work on. You will be redirected to your Dashboard. Scroll down to
+        the Forms section and click on Verification data for TRACES.
+    </p>
+
+    <form>
+        <div>
+            <label>Title:</label>
+            <select type="gender">
+                <option value="Mr">Mr</option>
+                <option value="Mrs">Mrs</option>
+            </select><br>
+            <label>Firstname:</label><input type="text" name="fname" placeholder="Firstname.."><br>
+            <label>Lastname:</label><input type="text" name=lname placeholder="Lastname.."><br><br>
+            <label>DOB :</label>
+            <input type="date" name="bdaytime"><br><br>
+            <label class="align">Full Address:</label> <textarea rows="4" cols="50" placeholder="Address.."></textarea><br><br>
+            <label class="align">Items you want:</label><textarea rows="4" cols="50">Item 1
+Item 2
+Item 3
+            </textarea><br><br>
+            <label>Choose Any:</label> <input type="radio" name="item" value="Choice One">Choice One<br>
+            <input class="margin" type="radio" name="item" value="Choice two">Choice Two<br>
+            <input class="margin" type="radio" name="item" value="Choice three">Choice Three<br><br>
+            <label>Increment Number:</label><input type="number" class="width" name="no" step="1"><br><br>
+            <label></label>
+            <input type="checkbox" name="conditions" value="terms">Agree with terms and Conditions<br><br>
+            <label></label>
+            <button type="button">Register</button>
+            <button type="button">Save Draft</button>
+        </div>
+    </form>
+</body>
+<style>
+    img {
+        display: block;
+        margin-left: left;
+        margin-right: left;
+    }
+
+    label {
+        width: 230px;
+        display: inline-block;
+        font-size: 22px;
+        vertical-align: middle;
+    }
+
+    .align {
+        vertical-align: top;
+    }
+
+    .margin {
+        margin-left: 240px;
+    }
+
+    .search {
+        float: right;
+        border-radius: 27px
+    }
+    .width{
+        width:30px
+    }
+
+</style>
+
+</html>
