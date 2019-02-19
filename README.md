@@ -9,3 +9,7 @@ Made a ecommerce website static page using bootstrap.
 
 ##Assigment on Javascript.
 Made a javascript on virtual studio code in which it finds whether a string is anagram or not.
+
+
+##Assignment(JavaScript) of Date 19 Feb 2019
+Sorted a json file. 
