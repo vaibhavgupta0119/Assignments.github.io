@@ -13,3 +13,6 @@ Made a javascript on virtual studio code in which it finds whether a string is a
 
 ##Assignment(JavaScript) of Date 19 Feb 2019
 Sorted a json file. 
+
+
+##Assignment3(JavaScript) of Date 20 Feb 2019
